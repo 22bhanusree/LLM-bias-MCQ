@@ -13,8 +13,6 @@ This repository provides the code, datasets, trained models, and instructions to
   - [mmlu01](#mmlu01)
   - [mmlu02](#mmlu02)
   - [mmlu03](#mmlu03)
-  - [out_dir (Trained Models)](#out_dir-trained-models)
-  - [logs (Training Logs)](#logs-training-logs)
   - [prompt_tuning](#prompt_tuning)
   - [COT (Chain-of-thought prompting)](#cot-chain-of-thought-prompting)
   - [plots](#plots)
@@ -81,13 +79,6 @@ Below is an overview of the key directories and their contents:
 - **Metrics**: Error bins, PPA (permutation position accuracy) scores, recall imbalance, and incorrect_likelihood across in-domain and out-of-domain test datasets.
 - Results are stored as CSVs in `mmlu03/<model-name>/...`.
 
-### out_dir (Trained Models)
-- Contains the **trained models** from the above experiments.  
-- These can be loaded for further finetuning or inference.
-
-### logs (Training Logs)
-- Stores training logs from the LoRA-tuning process and any relevant training events.
-
 ### prompt_tuning
 - Scripts related to prompt-based tuning strategies.
 
@@ -128,7 +119,7 @@ Below is an overview of the key directories and their contents:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/breaking-bias-llm.git
+   git clone https://github.com/22bhanusree/LLM-bias-MCQ.git
 2. **Create and Activate Conda Environment**:
     Create a conda virtual environment and activate it:
     ```bash
